@@ -35,7 +35,7 @@ public class Main {
             pstmt.setString(2, hashString);
             pstmt.executeUpdate();
 
-            System.out.println("Data has been successfully inserted into the CHCKER DB.");
+            System.out.println("Data has been successfully inserted into the database.");
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         } finally {
